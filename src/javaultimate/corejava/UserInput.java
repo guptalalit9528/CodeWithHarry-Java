@@ -3,7 +3,7 @@ package corejava;
 import java.util.Scanner;
 
 public class UserInput {
-    public static void main(String[] args) {
+    public static void main(Str[] args) {
         System.out.println("It works!");
         Scanner sc = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class UserInput {
         boolean ab = sc.hasNextInt();
         System.out.println(ab);
 
-        String str="Hello Lalait";
-        System.out.println(str);
+//        Str str="Hello Lalait";
+//        System.out.println(str);
     }
 }

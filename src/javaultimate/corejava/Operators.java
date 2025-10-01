@@ -1,14 +1,14 @@
 package corejava;
 
 public class Operators {
-    public static void main(String[] args) {
+    public static void main(Str[] args) {
         System.out.println(4.8%1.1);
         char c = 'a';
-        String str = "Lalit";
+        java.lang.String str = "Lalit";
         System.out.println(c+str);
 
-        if (str instanceof String) {
-            System.out.println("Datatype is String");
+//        if (str instanceof Str) {
+            System.out.println("Datatype is Str");
 
             int d = 7;
             System.out.println(++d*8);
@@ -18,5 +18,5 @@ public class Operators {
             System.out.println(bd++);
             System.out.println(bd);
         }
-    }
+   // }
 }
