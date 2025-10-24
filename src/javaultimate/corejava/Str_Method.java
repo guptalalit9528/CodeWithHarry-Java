@@ -5,6 +5,7 @@ import java.sql.SQLOutput;
 public class Str_Method {
     public static void main(String[] args) {
         String name = "LaLit";
+        String last = "Gupta";
         System.out.println(name.length());
         System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
